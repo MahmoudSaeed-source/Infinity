@@ -73,8 +73,8 @@
     },
     {
       "id": 5,
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "title": "Huawei P"30"",
+      "description": "Huawei’s re-badged P"30" Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
       "price": 499,
       "discountPercentage": 10.58,
       "rating": 4.09,
@@ -258,7 +258,7 @@
       "id": 15,
       "title": "Eau De Perfume Spray",
       "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
-      "price": 30,
+      "price": "30",
       "discountPercentage": 10.99,
       "rating": 4.7,
       "stock": 105,
@@ -294,7 +294,7 @@
     },
     {
       "id": 17,
-      "title": "Tree Oil 30ml",
+      "title": "Tree Oil "30"ml",
       "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
       "price": 12,
       "discountPercentage": 4.09,
@@ -535,25 +535,25 @@
       ]
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Key Holder",
       "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-      "price": 30,
-      "discountPercentage": 2.92,
-      "rating": 4.92,
+      "price": "30",
+      "discountPercentage":" 2.92",
+      "rating":" 4.92",
       "stock": 54,
       "brand": "Golden",
       "category": "home-decoration",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/"30"/thumbnail.jpg",
       "images": [
-        "https://cdn.dummyjson.com/product-images/30/1.jpg",
-        "https://cdn.dummyjson.com/product-images/30/2.jpg",
-        "https://cdn.dummyjson.com/product-images/30/3.jpg",
-        "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
+        "https://cdn.dummyjson.com/product-images/"30"/1.jpg",
+        "https://cdn.dummyjson.com/product-images/"30"/2.jpg",
+        "https://cdn.dummyjson.com/product-images/"30"/3.jpg",
+        "https://cdn.dummyjson.com/product-images/"30"/thumbnail.jpg"
       ]
     }
   ],
-  "total": 100,
-  "skip": 0,
-  "limit": 30
+  "total": "100",
+  "skip": "0",
+  "limit": "30"
 }
