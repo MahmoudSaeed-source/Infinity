@@ -1,0 +1,33 @@
+@import '../../../styles/variables.scss';
+.home_content{
+ display: grid;
+ gap: 20px;
+ grid-template-columns: repeat(4,1fr);
+ grid-auto-rows:minmax(116px,auto);
+ padding: 5px;
+ 
+ .component{
+  padding: 10px;
+  border: 1px solid $bgcolor_Soft;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.component_Box_1{
+  grid-row: span 3;
+  grid-column: span 1;
+
+}
+.component_Box_4{
+  grid-row: span 3;
+  grid-column: span 1;
+
+}
+.component_Box_7{
+  grid-row: span 2;
+  grid-column: span 2;
+
+}
+}

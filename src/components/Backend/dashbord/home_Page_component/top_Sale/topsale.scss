@@ -1,0 +1,90 @@
+@import "../../../../../styles/variables.scss";
+.top_Deals {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  .Title_Section {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    color: $fcolor_main;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .users_Deals_Content{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    .user_Component {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: 10px;
+        align-items: start;
+        justify-content: flex-start;
+    
+        .Img_user_Name {
+          width: 80%;
+          height: 60px;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+    
+          .user_image {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+    
+            margin-right: 15px;
+    
+            img {
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              -ms-border-radius: 50%;
+              -o-border-radius: 50%;
+            }
+          }
+    
+          .user_Info {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+    
+            text-transform: capitalize;
+    
+            .Name,
+            .mail {
+              font-size: 12px;
+              margin-bottom: 4px;
+            }
+          }
+    
+        }
+    
+        .user_Amount {
+          width: 20%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 12px;
+         
+          
+        }
+      }
+  }
+ 
+ 
+}

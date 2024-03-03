@@ -1,12 +1,19 @@
 @import './styles/global.scss';
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
 #root {
   width: 100%;
   height: 100vh;
   max-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 10px;
   text-align: center;
   overflow: hidden;
+  background-color:$bgcolor_dark ;
+  color:$fcolor-main;
+  font-family: "PT Serif", serif;
+    font-weight: 500;
+    font-style: normal;
 
 }
 .app{
