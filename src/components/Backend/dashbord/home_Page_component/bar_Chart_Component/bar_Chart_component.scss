@@ -1,0 +1,15 @@
+.Bar_Chart_Component{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .title{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .chart{
+    width: 100%;
+    height: 100%;
+  }
+}

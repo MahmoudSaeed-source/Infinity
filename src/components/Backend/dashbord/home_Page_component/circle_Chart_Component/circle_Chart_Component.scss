@@ -1,0 +1,36 @@
+.Circle_Chart_component{
+  .title{
+    text-transform: capitalize;
+  }
+  .chart{
+    width: 100%;
+    height: 100%;
+  }
+.model_options {
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+    .model {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-right: 5px;
+      }
+
+      .name {
+        font-size: 12px;
+      }
+    }
+  }
+}

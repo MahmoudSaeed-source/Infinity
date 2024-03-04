@@ -1,6 +1,16 @@
+import Bar_Chart_Component from '../../../components/Backend/dashbord/home_Page_component/bar_Chart_Component/Bar_Chart_Component';
+import Big_Chart_Component from '../../../components/Backend/dashbord/home_Page_component/big_Chart_component/Big_Chart_Component';
 import Charts_components from '../../../components/Backend/dashbord/home_Page_component/charts_Component/Charts_components';
+import Circle_Chart_component from '../../../components/Backend/dashbord/home_Page_component/circle_Chart_Component/Circle_Chart_component';
 import TopSale from '../../../components/Backend/dashbord/home_Page_component/top_Sale/TopSale';
-import { chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../../data';
+import {
+  chartBoxConversion,
+  chartBoxProduct,
+  chartBoxRevenue,
+  chartBoxUser,
+  barChartBoxRevenue,
+  barChartBoxVisit,
+} from "../../../data";
 import './home_page.scss'
 
 const Home_page = () => {
@@ -15,16 +25,24 @@ const Home_page = () => {
       <div className="component component_Box_3">
         <Charts_components {...chartBoxProduct} />
       </div>
-      <div className="component component_Box_4">component4</div>
+      <div className="component component_Box_4">
+        <Circle_Chart_component />
+      </div>
       <div className="component component_Box_5">
         <Charts_components {...chartBoxConversion} />
       </div>
       <div className="component component_Box_6">
         <Charts_components {...chartBoxRevenue} />
       </div>
-      <div className="component component_Box_7">component7</div>
-      <div className="component component_Box_8">component8</div>
-      <div className="component component_Box_9">component9</div>
+      <div className="component component_Box_7">
+        <Big_Chart_Component/>
+      </div>
+      <div className="component component_Box_8">
+        <Bar_Chart_Component {...barChartBoxVisit} />
+      </div>
+      <div className="component component_Box_9">
+        <Bar_Chart_Component {...barChartBoxRevenue} />
+      </div>
     </div>
   );
 }
