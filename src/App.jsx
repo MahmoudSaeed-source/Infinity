@@ -9,6 +9,7 @@ import Layout_Dashboard from "./pages/dashboard/layout_page/Layout_Dashboard";
 import Home_page from './pages/dashboard/home-page/Home_page'
   import Users from './pages/dashboard/users/Users';
   import Products from './pages/dashboard/products/Products';
+import Single from './pages/dashboard/single/Single';
 function App() {
   
   const routes = createBrowserRouter([
@@ -23,6 +24,12 @@ function App() {
         {
           path: "/dashboard/users",
           element: <Users />,
+          children: [
+            {
+              path: ":userId",
+              element: <Single />,
+            },
+          ],
         },
         {
           path: "/dashboard/products",

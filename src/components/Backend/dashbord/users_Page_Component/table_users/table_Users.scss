@@ -1,12 +1,53 @@
-.Table_Users{
+@import "../../../../../styles/variables.scss";
+.Table_users {
   width: 100%;
   height: 100%;
-  background-color: #fff;
-  .Data_Grid{
-    background-color: #fff !important;
-    .MuiDataGrid-toolbarContainer {
-        flex-direction: row-reverse !important
+  .Data_Grid {
+    font-size: 12px !important;
+    text-align: center;
+    margin-top: 20px;
+    .Actions{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 18px;
+      .Edit,.delete {
+        cursor: pointer;
+        &:hover svg {
+            color: $bgcolor_Soft;
+
+          }
       }
+      
+    }
+    .MuiDataGrid-toolbarContainer {
+      flex-direction: row-reverse !important;
+      font-size: 12px !important;
+      justify-self: flex-start;
+      
+    }
+    .css-az8st9-MuiDataGrid-root {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .MuiDataGrid-cell,
+    .MuiDataGrid-columnHeaderTitleContainer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .MuiDataGrid-columnHeaderTitleContainer {
+      .MuiDataGrid-columnHeaderTitle{
+        font-weight: 700;
+        color:$bgcolor_dark;
+          font-size: 14px;
+      }
+     
+    }
   }
- 
 }
