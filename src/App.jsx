@@ -39,7 +39,7 @@ function App() {
     },
     {
       path: "/",
-      element: <Home />,
+      element: <Home_page />,
     },
   ]);
   return (
